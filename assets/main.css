@@ -5,10 +5,22 @@
 
 #kwexy {
   transform: rotate(-3deg);
+  animation-duration: 3s;
+  animation-name: bob;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
-#kwexy:hover{
-  transform: rotate(0deg);
-  -webkit-transform: rotate(-1deg);
+
+@keyframes bob {
+  from {
+    transform: rotate(-3deg);
+    margin-left: -1em;
+  }
+
+  to {
+    transform: rotate(-1deg);
+    margin-left: 1em;
+  }
 }
 
 #kwexyducks{  
