@@ -1,0 +1,110 @@
+#kwekkwek{
+  display: block;
+    text-align: center;
+}
+
+#kwexy {
+  transform: rotate(-3deg);
+}
+#kwexy:hover{
+  transform: rotate(0deg);
+  -webkit-transform: rotate(-1deg);
+}
+
+#kwexyducks{  
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  height:100%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  background-color: deepskyblue;
+}
+
+#wrap{
+  width:90%;
+  margin:0 auto;
+}
+
+.display-table{
+  display:table;
+}
+
+.center-text{
+  margin: 0 auto;
+}
+
+.load-section{
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  margin-bottom: 8px;
+}
+.load-section:hover{
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  opacity: .9;
+  cursor: pointer;
+}
+
+#loading-container{
+  position: relative;
+  margin-bottom:20px;
+}
+
+#loading-dialog{
+  display:none;
+  font-weight: 400;
+}
+
+#sec{
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  display:inline-block;
+  font-weight: 400
+}
+
+#signature{
+  font-size:.5em;
+  font-family: 'Dosis', sans-serif;
+  font-weight:400;
+}
+
+.animatedFast {
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  .display-table{
+    /* display: inline-block; */
+    margin: 0 auto;
+    text-align: center;  
+  }
+  .load-section{
+    display:block;
+  }
+  .row{
+    margin-bottom: 0px;
+  }
+  .load-section{
+    font-size:.7em;
+  }
+  #signature{
+    margin-top:10px;
+    font-size:.4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #kwexyducks{
+    width:300px
+  }
+}
