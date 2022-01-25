@@ -14,7 +14,7 @@ function buildLink(whichLink) {
 
 function getDiv() {
   let div = $('<div data-depth="0.2" class="row animated bounce">')
-  let html = buildLink("Come meet the");
+  let html = buildLink("Coming soon!");
   $(div).html(html);
   return div;
 }
