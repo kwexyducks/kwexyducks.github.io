@@ -44,10 +44,23 @@ body{
 
 .display-table{
   display:table;
+  text-align: center;
 }
 
 .center-text{
   margin: 0 auto;
+}
+
+#icons{
+  margin: 0 auto;
+  display: table;
+}
+
+.icon{
+  color:black;
+}
+.icon:hover{
+ opacity:.7;
 }
 
 .load-section{
@@ -70,6 +83,7 @@ body{
 #loading-dialog{
   display:none;
   font-weight: 400;
+  margin-bottom:0px;
 }
 
 #sec{
@@ -104,7 +118,7 @@ body{
     display:block;
   }
   .row{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .load-section{
     font-size:.7em;

@@ -5,16 +5,15 @@ var clientHeight = window.innerHeight;
 var wrapOffset = .15 * (clientHeight - 282)
 var parallaxMain;
 
-function buildLink(whichLink) {
-  let html = `<span id="${whichLink}" data-name="${whichLink}" class="display-table load-section center-text">${whichLink}</span>
-  <img id="kwexyducks" width="500px" src="/gallery/kwexyducks.png">
+function banner() {
+  let html = `<img id="kwexyducks" width="500px" src="/gallery/kwexyducks.png">  
   `
   return html;
 }
 
 function getDiv() {
   let div = $('<div data-depth="0.2" class="row animated bounce">')
-  let html = buildLink("Coming soon!");
+  let html = banner();
   $(div).html(html);
   return div;
 }
@@ -36,7 +35,15 @@ function loadingDialog() {
     i++;
 
   setTimeout(function () {
-    ;$('#loading-container').append(`<div data-depth="0.2" id="signature" class="display-table row"><span class="center-text">A generative collection of the 1500 kwexiest ducks on Solana</span></div>`);
+    let html=`
+    <div data-depth="0.2" id="signature" class="display-table row">
+    <span class="center-text" style="font-size:1.3em">A generative collection of the 1500 kwexiest ducks on Solana.</span>
+    </div>
+    <div id="icons">
+    <span class="center-text"><a class="icon" target="_blank" href="https://discord.gg/8ZANJWugyS"><i class="fab fa-discord"></i></a><a class="icon" target="_blank" href="https://twitter.com/KwexyDucks"><i class="fab fa-twitter"></i></a></span>
+    </div>
+    `
+    ;$('#loading-container').append(html);
   }, (i + 1) * ti);
 
 }
