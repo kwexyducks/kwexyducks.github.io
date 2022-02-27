@@ -37,7 +37,7 @@ function loadingDialog() {
   setTimeout(function () {
     let html=`
     <div data-depth="0.2" id="signature" class="display-table row">
-    <span class="center-text" style="font-size:1.3em">A generative collection of the 1500 kwexiest ducks on Solana.</span>
+    <span class="center-text" style="font-size:1.3em">A generative collection of the kwexiest ducks on Fantom.</span>
     </div>
     <div id="icons">
     <span class="center-text"><a class="icon" target="_blank" href="https://discord.gg/8ZANJWugyS"><i class="fab fa-discord"></i></a><a class="icon" target="_blank" href="https://twitter.com/KwexyDucks"><i class="fab fa-twitter"></i></a></span>
