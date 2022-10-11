@@ -37,7 +37,7 @@ function loadingDialog() {
   setTimeout(function () {
     let html=`
     <div data-depth="0.2" id="signature" class="display-table row">
-    <span class="center-text" style="font-size:1.3em">A generative collection of the kwexiest ducks on Fantom.</span>
+    <span class="center-text" style="font-size:1.3em">A 1/1 collection of 69 kwexy ducks on Fantom, soon to be accompanied by 469 Lil Fowl Bits!</span>
     </div>
     <div id="icons">
     <span class="center-text"><a class="icon" target="_blank" href="https://discord.gg/8ZANJWugyS"><i class="fab fa-discord"></i></a><a class="icon" target="_blank" href="https://twitter.com/KwexyDucks"><i class="fab fa-twitter"></i></a></span>
