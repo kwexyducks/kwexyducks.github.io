@@ -1,0 +1,11 @@
+{
+  "name": "Proof of Butt",
+  "description": "Issued by Proof of Butt protocol genesis deployment. Reveal on Halloween. Follow @pod_town and @bimpmeister/@KwexyDucks, join discords, for updates.",
+  "image": "https://kwexyducks.github.io/gallery/pre-reveal.png",
+  "attributes": [
+    {
+        "trait_type": "Proof of", 
+        "value": "Butt"
+      },
+    ]
+}
