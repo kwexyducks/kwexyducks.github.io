@@ -1,0 +1,15 @@
+{
+  "name": "Lil Fowl Xmas",
+  "description": "A Christmas present for Lil Fowl Bits holders from Bimps. It'll unwrap on Christmas day. Thank you so much for your support. Happy holiday season and new year! More gifts like this to come!",
+  "image": "https://kwexyducks.github.io/gallery/pre-reveal.png",
+  "attributes": [
+    {
+        "trait_type": "A special gift from", 
+        "value": "bimps/@bimpmeister"
+      },
+    {
+        "trait_type": "Reveal on", 
+        "value": "Christmas day"
+      }
+    ]
+}
